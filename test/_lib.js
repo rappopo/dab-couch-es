@@ -43,7 +43,7 @@ module.exports = {
       dbName: 'test',
     },
     es: {
-      hosts: ['nuc:9200'],
+      hosts: ['localhost:9200'],
       index: 'test'
     }
   },
