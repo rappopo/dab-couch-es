@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "doc": {
+      "properties": {
+        "name": {
+          "type": "keyword",
+          "fields": {
+            "ft": {
+              "type": "text"
+            }
+          }
+        }
+      }
+    }
+  }
+}
