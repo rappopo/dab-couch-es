@@ -1,13 +1,15 @@
 {
   "name": "@rappopo/dab-couch-es",
   "version": "0.0.1",
-  "description": "A CouchDB ♥ Elasticsearch DAL, what a true BFF!",
+  "description": "A CouchDB ♥ Elasticsearch data access layer, a true BFF!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "keywords": [
     "dab",
+    "dab-couch",
+    "dab-es",
     "dab-couch-es",
     "couchdb",
     "elasticsearch",
@@ -25,5 +27,8 @@
     "lodash": "^4.17.4",
     "nano": "^6.4.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@rappopo/dab-couch": "0.0.1",
+    "@rappopo/dab-es": "0.0.1"
+  }
 }
