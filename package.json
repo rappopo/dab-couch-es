@@ -1,6 +1,6 @@
 {
   "name": "@rappopo/dab-couch-es",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CouchDB ♥ Elasticsearch data access layer, a true BFF!",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,15 @@
     "dab-couch-es",
     "couchdb",
     "elasticsearch",
+    "nesu",
     "data",
     "access",
     "dal"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rappopo/dab-couch-es.git"
+  },
   "author": "Ardhi Lukianto <ardhi@lukianto.com>",
   "license": "MIT",
   "devDependencies": {
@@ -28,7 +33,8 @@
     "nano": "^6.4.2"
   },
   "dependencies": {
-    "@rappopo/dab-couch": "0.0.1",
-    "@rappopo/dab-es": "0.0.1"
+    "@rappopo/dab": "0.0.4",
+    "@rappopo/dab-couch": "0.0.3",
+    "@rappopo/dab-es": "0.0.3"
   }
 }

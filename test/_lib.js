@@ -51,6 +51,11 @@ module.exports = {
     { _id: 'jack-bauer', name: 'Jack Bauer' },
     { _id: 'james-bond', name: 'James Bond' }
   ],
+  bulkDocs: [
+    { _id: 'jack-bauer', name: 'Jack Bauer' },
+    { _id: 'johnny-english', name: 'Johnny English' },
+    { name: 'Jane Boo' }
+  ],
   timeout: 5000,
   resetDb: function (callback) {
     let me = this

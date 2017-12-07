@@ -68,6 +68,21 @@ class DabCouchEs extends Dab {
     return this.rekCouch.remove(id, params)
   }
 
+  bulkCreate (body, params) {
+    this.setClient(params)
+    return this.rekCouch.bulkCreate(body, params)
+  }
+
+  bulkUpdate (body, params) {
+    this.setClient(params)
+    return this.rekCouch.bulkUpdate(body, params)
+  }
+
+  bulkRemove (body, params) {
+    this.setClient(params)
+    return this.rekCouch.bulkRemove(body, params)
+  }
+
 }
 
 module.exports = DabCouchEs
