@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3
+
+* Adding .asCallback to the Promise
+
 ## 0.0.2
 
 * Adding bulkCreate method
