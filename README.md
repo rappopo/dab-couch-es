@@ -6,7 +6,7 @@ You might ask yourself, why this useless package if there are already [@rappopo/
 
 I make this stupid package because I work alot with both CouchDB and Elasticsearch. Both systems are connected to each other through [@rappopo/nesu](https://github.com/rappopo/nesu) in the back, which basically listen to CouchDB changes stream and forward it to Elasticsearch for indexing.
 
-So whenever I create/update/delete document on CouchDB, it will be ready for querying in Elasticsearch. Perfecto! Right? Or, ... emh... still pretty stupid ??
+So whenever I create/update/delete document on CouchDB, it will be ready for querying in Elasticsearch. Perfecto! Right? Or, ... emh... still pretty stupid isn't it ??
 
 ## Installation
 
@@ -37,9 +37,9 @@ dab.findOne('my-doc').then(function(doc) { ... })
 
 ## Options
 
-`couch`: your @rappopo/dab-couch options
+`couch`: see [@rappopo/dab-couch](https://github.com/rappopo/dab-couch) options
 
-`es`: your @rappopo/dab-es options
+`es`: see [@rappopo/dab-es](https://github.com/rappopo/dab-es) options
 
 
 ## Misc
