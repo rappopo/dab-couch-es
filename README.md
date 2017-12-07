@@ -2,7 +2,7 @@
 
 A [Rappopo DAB](https://github.com/rappopo/dab) implementation for CouchDB 2.0 AND Elasticsearch for finding documents. 
 
-You might ask yourself, why this useless package if there are already [@rappopo/dab-couch](https://github.com/rappopo/dab-couch) and [@rappopo/dab-es](https://github.com/rappopo/dab-es)? Well, this package is a thin wrapper around those two. Only the `find` method is taken from @rappopo/dab-es, while the others are from @rappopo/dab-couch.
+You might ask yourself, why this useless package if there are already [@rappopo/dab-couch](https://github.com/rappopo/dab-couch) and [@rappopo/dab-es](https://github.com/rappopo/dab-es)? Well, this package is a thin wrapper around those two. Only the `find` method is taken from @rappopo/dab-es, while the rest are from @rappopo/dab-couch.
 
 I make this stupid package because I work alot with both CouchDB and Elasticsearch. Both systems are connected to each other through [@rappopo/nesu](https://github.com/rappopo/nesu), which basically listen to CouchDB changes stream and forward it to Elasticsearch for indexing.
 
