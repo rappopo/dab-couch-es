@@ -22,6 +22,8 @@ describe('create', function () {
     })
   })
 
+  this.timeout(lib.timeout)
+
   it('should return error if doc exists', function () {
     const cls = new Cls(lib.options)
     return expect(cls.create(lib.dummyData[0])).to.be.rejectedWith('Exists')

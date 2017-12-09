@@ -29,7 +29,8 @@ const dab = new DabCouchEs({
     hosts: ['localhost:9200'],
     index: 'myindex',
     type: 'mytype'
-  }
+  },
+  delay: 1000
 })
 ...
 dab.findOne('my-doc').then(function(doc) { ... })
@@ -41,6 +42,7 @@ dab.findOne('my-doc').then(function(doc) { ... })
 
 `es`: see [@rappopo/dab-es](https://github.com/rappopo/dab-es) options
 
+`delay`: time to wait (in ms) to let CouchDB fully synchronize with Elasticsearch after a create/update/remove action. Optional, defaults to 1000 ms
 
 ## Misc
 

@@ -25,6 +25,8 @@ describe('update', function () {
     })
   })
 
+  this.timeout(lib.timeout)
+
   it('should return error if doc doesn\'t exist', function () {
     const cls = new Cls(lib.options)
     return expect(cls.update('no-agent', body)).to.eventually.rejectedWith('Not found')

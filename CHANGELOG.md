@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.5
+
+* Updated to @rappopo/dab-couch@0.0.6
+* Updated to @rappopo/dab-es@0.0.6
+* Updated to @rappopo/dab-dab@0.0.6
+* Add delay to create/update/remove
+
 ## 0.0.4
 
 * Spec changed on bulkRemove

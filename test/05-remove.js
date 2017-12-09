@@ -19,6 +19,8 @@ describe('remove', function () {
     })
   })
 
+  this.timeout(lib.timeout)
+
   it('should return error if doc doesn\'t exist', function () {
     const cls = new Cls(lib.options)
     return expect(cls.remove('no-agent')).to.eventually.be.rejectedWith('Not found')
