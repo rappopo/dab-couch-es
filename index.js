@@ -18,8 +18,6 @@ class DabCouchEs extends Dab {
     options.couch = options.couch || {}
     options.es = options.es || {}
     super.setOptions(this._.merge(this.options, {
-      idSrc: '_id',
-      idDest: options.idDest || options.idSrc || '_id',
       couch: {
         url: options.couch.url || 'http://localhost:5984',
         dbName: options.couch.dbName || 'test'

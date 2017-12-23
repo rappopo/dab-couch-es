@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.6
+
+* Updated to @rappopo/dab@0.0.8
+
 ## 0.0.5
 
 * Updated to @rappopo/dab-couch@0.0.6

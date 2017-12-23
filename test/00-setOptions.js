@@ -12,10 +12,6 @@ const Cls = require('../index'),
 describe('setOptions', function () {
   it('should return the default options', function () {
     const cls = new Cls()
-    expect(cls.options).to.include({
-      idSrc: '_id',
-      idDest: '_id',
-    })
     expect(cls.options.couch).to.include({
       url: 'http://localhost:5984',
       dbName: 'test'
@@ -24,15 +20,6 @@ describe('setOptions', function () {
       hosts: ['localhost:9200'],
       index: 'test',
       type: 'doc'        
-    })
-  })
-
-  it('should return options with custom idDest', function () {
-    const cls = new Cls({ 
-      idDest: 'uid'
-    })
-    expect(cls.options).to.include({
-      idDest: 'uid'
     })
   })
 
