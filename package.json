@@ -1,6 +1,6 @@
 {
   "name": "@rappopo/dab-couch-es",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A CouchDB ♥ Elasticsearch data access layer, a true BFF!",
   "main": "index.js",
   "scripts": {
@@ -34,8 +34,8 @@
     "nano": "^6.4.2"
   },
   "dependencies": {
-    "@rappopo/dab": "0.0.8",
-    "@rappopo/dab-couch": "0.0.8",
-    "@rappopo/dab-es": "0.0.7"
+    "@rappopo/dab": "0.0.11",
+    "@rappopo/dab-couch": "0.0.9",
+    "@rappopo/dab-es": "0.0.8"
   }
 }
